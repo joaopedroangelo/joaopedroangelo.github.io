@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="style.css">
-
----
 ## Sobre Mim
 
 ![img-pessoal](./assets/155973507.png)
