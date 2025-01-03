@@ -8,8 +8,8 @@
 <a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
 
-Sou natural de `Pombal/PB`, mas desde 2022 resido em `Campina Grande/PB`.<br>
-Atualmente, curso `Ciência da Computação` na `Universidade Federal de Campina Grande` (UFCG), onde estou no quarto período.<br>
+Sou natural de *Pombal/PB*, mas desde 2022 resido em *Campina Grande/PB*.<br>
+Atualmente, curso *Ciência da Computação* na *Universidade Federal de Campina Grande (UFCG)*, onde estou no quarto período.<br>
 
 ---
 
