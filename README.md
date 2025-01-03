@@ -1,7 +1,3 @@
----
-title: João Pedro Angelo - Site Pessoal
----
-
 <link rel="stylesheet" href="style.css">
 
 ---
