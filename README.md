@@ -8,17 +8,18 @@
 <a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
 
-Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br>
-Atualmente, curso Ciência da Computação na Universidade Federal de Campina Grande (UFCG), onde estou no quarto período.<br>
+Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br><br>
+Sou estudante no curso de Ciência da Computação na UFCG, onde estou no quarto período.<br><br>
+Atualmente, atuo como bolsista PD&I no projeto Agents4Good, uma parceria entre a UFCG e a KunumiAI, com o objetivo de desenvolver Inteligência Artificial, com foco em Sistemas Multi-Agentes e Modelos de Linguagem de Larga Escala.
 
 ---
 
 ## Conquistas
 
-- **2019**: Medalhista de Bronze na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP)
-- **2020**: Medalhista de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP)
-- **2022**: Início da graduação em Ciência da Computação na Universidade Federal de Campina Grande (UFCG)
-- **Novembro/2024**: Ingresso no projeto **Agents4Good** – Parceria entre a UFCG e KunumiAI, focado em Inteligência Artificial
+- **2019**: Medalhista de Bronze na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
+- **2020**: Medalhista de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
+- **2022**: Início da graduação em Ciência da Computação na Universidade Federal de Campina Grande (UFCG);
+- **Novembro/2024**: Ingresso no projeto **Agents4Good** – Parceria entre a UFCG e KunumiAI, focado em Inteligência Artificial;
 
 ---
 
@@ -46,9 +47,8 @@ Atualmente, curso Ciência da Computação na Universidade Federal de Campina Gr
 
 - **Projeto Agents4Good**  
   *Nov/2024 – até o momento*  
-  Atualmente, sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multiagentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
+  Atualmente, sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multi-Agentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
 
 ---
 
-Agradeço pelo seu interesse em conhecer mais sobre minha trajetória.  
-Se você deseja entrar em contato ou discutir projetos, sinta-se à vontade para me chamar pelas redes sociais.
+Agradeço pelo seu interesse em conhecer mais sobre minha trajetória. Sinta-se à vontade para me chamar pelas redes sociais.
