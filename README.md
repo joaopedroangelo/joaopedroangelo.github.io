@@ -3,7 +3,7 @@ layout: default
 title: João Pedro Angelo - Site Pessoal
 ---
 
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="style.css">
 
 ---
 ## Sobre Mim
