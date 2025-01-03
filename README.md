@@ -26,27 +26,27 @@ Atualmente, curso Ciência da Computação na Universidade Federal de Campina Gr
 
 - **Iniciação Científica OBMEP**  
   *Jan/2020 – Dez/2020*  
-  Participei do programa de iniciação científica com bolsa do CNPq, com foco no desenvolvimento de métodos de ensino e aprendizagem para estudantes da OBMEP.
+  Participei do programa de iniciação científica da OBMEP (PIC), recebendo bolsa do CNPq.
 
 - **Monitor Bolsista FMCC1**  
   *Jun/2022 – Dez/2022*  
-  Atuei como monitor bolsista na disciplina FMCC1, sendo responsável pela correção de atividades e fornecendo suporte aos alunos durante o curso.
+  Fui responsável pela correção de atividades e por fornecer suporte aos alunos durante o curso.
 
 - **Monitor Voluntário LP2**  
   *Fev/2023 – Jun/2023*  
-  Fui monitor voluntário na disciplina de Linguagens de Programação 2 (LP2), auxiliando na correção de laboratórios e apoiando os alunos em sala de aula.
+  Forneci suporte na correção de laboratórios e acompanhei os alunos em sala de aula.
 
 - **Pausa na Carreira**  
   *Jun/2023 – Jun/2024*  
-  Durante esse período, fiz uma pausa no curso para focar em questões pessoais, sem deixar de buscar aprimoramento acadêmico e profissional.
+  Durante esse período, fiz uma pausa no curso para focar em questões pessoais.
 
 - **Monitor Voluntário FMCC1**  
   *Jul/2024 – Out/2024*  
-  Retornei como monitor voluntário na disciplina FMCC1, auxiliando novamente na correção de atividades e no acompanhamento dos alunos.
+  Retornei como monitor voluntário, auxiliando novamente na correção de atividades e no acompanhamento dos alunos.
 
 - **Projeto Agents4Good**  
   *Nov/2024 – até o momento*  
-  Participando de pesquisas e desenvolvimentos em **Inteligência Artificial**, com ênfase em **Sistemas Multiagentes** e **Modelos de Linguagem de Grande Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
+  Atualmente, sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multiagentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
 
 ---
 
