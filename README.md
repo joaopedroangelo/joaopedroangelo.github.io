@@ -1,5 +1,4 @@
 ---
-layout: default
 title: João Pedro Angelo - Site Pessoal
 ---
 
