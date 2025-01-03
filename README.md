@@ -1,6 +1,6 @@
 ## Sobre Mim
 
-<img class="profile-picture" src="https://github.com/joaopedroangelo/joaopedroangelo.github.io/blob/main/assets/155973507.png" alt="Foto de João Pedro Angelo" width="200">
+![img-pessoal](assets/155973507.png)
 
 Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.
 Atualmente, curso Ciência da Computação na Universidade Federal de Campina Grande (UFCG), onde estou no quarto período.
