@@ -1,6 +1,6 @@
 ## Sobre Mim
 
-![img-pessoal](assets/155973507.png)
+![img-pessoal](./assets/155973507.png)
 
 Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.
 Atualmente, curso Ciência da Computação na Universidade Federal de Campina Grande (UFCG), onde estou no quarto período.
