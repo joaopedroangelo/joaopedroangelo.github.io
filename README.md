@@ -2,9 +2,13 @@
 
 ![img-pessoal](./assets/155973507.png)
 
-<a href="https://instagram.com/joao.pedro.angelo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href="https://instagram.com/joao.pedro.angelo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-c21f02?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 <a href = "mailto:carneiroangelojoaopedro@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/joao-pedro-carneiro-angelo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<a href="https://www.linkedin.com/in/joao-pedro-carneiro-angelo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" 
+                                                                  target="_blank"></a>
+<a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge"
+                                                                  target="_blank"></a>
 
 Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br>
 Atualmente, curso Ciência da Computação na Universidade Federal de Campina Grande (UFCG), onde estou no quarto período.<br>
@@ -46,12 +50,6 @@ Este site reúne minhas conquistas acadêmicas, experiências profissionais e me
 - **Projeto Agents4Good**  
   *Nov/2024 – até o momento*  
   Participando de pesquisas e desenvolvimentos em Inteligência Artificial, com ênfase em **Sistemas Multiagentes** e **Modelos de Linguagem de Grande Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
-
----
-
-## Currículo Lattes
-
-- **[Lattes](http://lattes.cnpq.br/9454094060154650)**  
 
 ---
 
