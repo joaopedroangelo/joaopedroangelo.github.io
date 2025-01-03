@@ -10,7 +10,7 @@
 
 Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br><br>
 Sou estudante no curso de Ciência da Computação na UFCG, onde estou no quarto período.<br><br>
-Atualmente, atuo como bolsista PD&I no projeto Agents4Good, uma parceria entre a UFCG e a KunumiAI, com o objetivo de desenvolver Inteligência Artificial, com foco em Sistemas Multi-Agentes e Modelos de Linguagem de Larga Escala.
+Atualmente, atuo como bolsista PD&I no projeto Agents4Good, uma parceria entre a UFCG e a KunumiAI, com o objetivo de desenvolver a Inteligência Artificial, focando em Sistemas Multi-Agentes e em Modelos de Linguagem de Larga Escala.
 
 ---
 
