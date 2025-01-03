@@ -1,3 +1,11 @@
+---
+layout: default
+title: João Pedro Angelo - Site Pessoal
+---
+
+<link rel="stylesheet" href="./css/style.css">
+
+---
 ## Sobre Mim
 
 ![img-pessoal](./assets/155973507.png)
