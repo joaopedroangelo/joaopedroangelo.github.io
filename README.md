@@ -1,2 +1,54 @@
-# joaopedroangelo.github.io
-Personal Website
+## Sobre Mim
+
+![img-pessoal](./assets/155973507.png)
+
+<a href="https://instagram.com/joao.pedro.angelo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-c21f02?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "mailto:carneiroangelojoaopedro@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/joao-pedro-carneiro-angelo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+<a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
+
+Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br><br>
+Sou estudante no curso de Ciência da Computação da UFCG; estou no quarto período.<br><br>
+Atualmente, atuo como bolsista PD&I no projeto Agents4Good, uma parceria entre a UFCG e a KunumiAI.
+
+---
+
+## Conquistas
+
+- **2019**: Medalhista de Bronze na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
+- **2020**: Medalhista de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
+- **2022**: Início da graduação em Ciência da Computação na Universidade Federal de Campina Grande (UFCG);
+- **Novembro/2024**: Ingresso no projeto *Agents4Good*;
+
+---
+
+## Experiências
+
+- **Iniciação Científica OBMEP**  
+  *Jan/2020 – Dez/2020*  
+  Participei do programa de iniciação científica da OBMEP (PIC), recebendo bolsa do CNPq.
+
+- **Monitor Bolsista FMCC1**  
+  *Jun/2022 – Dez/2022*  
+  Fui responsável pela correção de atividades e por fornecer suporte aos alunos durante o curso.
+
+- **Monitor Voluntário LP2**  
+  *Fev/2023 – Jun/2023*  
+  Forneci suporte na correção de laboratórios e acompanhei os alunos em sala de aula.
+
+- **Pausa na Carreira**  
+  *Jun/2023 – Jun/2024*  
+  Durante esse período, fiz uma pausa no curso para focar em questões pessoais.
+
+- **Monitor Voluntário FMCC1**  
+  *Jul/2024 – Out/2024*  
+  Retornei como monitor voluntário, auxiliando novamente na correção de atividades e no acompanhamento dos alunos.
+
+- **Projeto Agents4Good**  
+  *Nov/2024 – até o momento*  
+  Sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multi-Agentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
+
+---
+
+Agradeço pelo seu interesse em conhecer mais sobre minha trajetória. Sinta-se à vontade para me chamar pelas redes sociais.
