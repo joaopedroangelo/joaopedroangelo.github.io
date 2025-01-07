@@ -8,9 +8,9 @@
 <a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
 
-Sou natural de Pombal/PB, mas desde 2022 resido em Campina Grande/PB.<br><br>
-Sou estudante no curso de Ciência da Computação da UFCG; estou no quarto período.<br><br>
-Atualmente, atuo como bolsista PD&I no projeto Agents4Good, uma parceria entre a UFCG e a KunumiAI.
+Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.<br><br>
+Atualmente, curso o quarto período de Ciência da Computação na UFCG e atuo como bolsista de PD&I no projeto Agents4Good,
+fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 
 ---
 
