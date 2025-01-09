@@ -9,7 +9,7 @@
 <a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
 
 Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.<br><br>
-Atualmente, curso o quarto período de Ciência da Computação na UFCG e atuo como bolsista de PD&I no projeto Agents4Good,
+Atualmente, curso o quarto período de Ciência da Computação na UFCG e atuo como bolsista PD&I no projeto Agents4Good,
 fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 
 ---
@@ -19,7 +19,7 @@ fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 - **2019**: Medalhista de Bronze na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
 - **2020**: Medalhista de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
 - **2022**: Início da graduação em Ciência da Computação na Universidade Federal de Campina Grande (UFCG);
-- **Novembro/2024**: Ingresso no projeto *Agents4Good*;
+- **Novembro/2024**: Ingresso no projeto *Agents4Good* e começo da carreira em *Inteligência Artificial*;
 
 ---
 
@@ -31,11 +31,11 @@ fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 
 - **Monitor Bolsista FMCC1**  
   *Jun/2022 – Dez/2022*  
-  Fui responsável pela correção de atividades e por fornecer suporte aos alunos durante o curso.
+  Fui responsável pela correção de atividades e por fornecer suporte aos alunos, durante o curso de *Fundamentos Matemáticos para Computação".
 
 - **Monitor Voluntário LP2**  
   *Fev/2023 – Jun/2023*  
-  Forneci suporte na correção de laboratórios e acompanhei os alunos em sala de aula.
+  Forneci suporte na correção de laboratórios e acompanhei os alunos em sala de aula, durante a disciplina de *Laboratório de Programação II*.
 
 - **Pausa na Carreira**  
   *Jun/2023 – Jun/2024*  
