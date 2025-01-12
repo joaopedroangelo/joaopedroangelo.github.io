@@ -31,7 +31,7 @@ fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 
 - **Monitor Bolsista FMCC1**  
   *Jun/2022 – Dez/2022*  
-  Fui responsável pela correção de atividades e por fornecer suporte aos alunos, durante o curso de *Fundamentos Matemáticos para Computação".
+  Fui responsável pela correção de atividades e por fornecer suporte aos alunos, durante o curso de *Fundamentos Matemáticos para Computação*.
 
 - **Monitor Voluntário LP2**  
   *Fev/2023 – Jun/2023*  
