@@ -1,10 +1,11 @@
 ## Sobre Mim
 
-<a href="https://instagram.com/joao.pedro.angelo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-c21f02?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-<a href = "mailto:carneiroangelojoaopedro@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/joao-pedro-carneiro-angelo" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://www.github.com/joaopedroangelo" target="_blank"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-<a href="http://lattes.cnpq.br/9454094060154650" target="_blank"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge" target="_blank"></a>
+<a href="https://instagram.com/joao.pedro.angelo" target="_blank"><img src="https://img.shields.io/badge/-Instagram-c21f02?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href = "mailto:carneiroangelojoaopedro@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/joao-pedro-carneiro-angelo"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.github.com/joaopedroangelo"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://www.youtube.com/@universoia-ytbr"><img src="https://img.shields.io/badge/-Youtube-FF0000?style=for-the-badge&logo=youtube"></a>
+<a href="http://lattes.cnpq.br/9454094060154650"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge"></a>
 
 Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.<br><br>
 Atualmente, curso o quarto período de Ciência da Computação na UFCG e atuo como bolsista PD&I no projeto Agents4Good,
