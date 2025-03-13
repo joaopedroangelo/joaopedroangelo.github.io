@@ -11,6 +11,8 @@ Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.<br><br>
 Atualmente, curso o quarto período de Ciência da Computação na UFCG e atuo como bolsista PD&I no projeto Agents4Good,
 fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 
+Desde já, agradeço pelo seu interesse em conhecer mais sobre minha trajetória. Sinta-se à vontade para me chamar pelas redes sociais.
+
 ---
 ## Conquistas
 
@@ -45,6 +47,3 @@ fruto de uma parceria entre a UFCG e a KunumiAI.<br>
 - **Iniciação Científica OBMEP**  
   *Jan/2020 – Dez/2020*  
   Participei do programa de iniciação científica da OBMEP (PIC), recebendo bolsa do CNPq.
-
----
-> Agradeço pelo seu interesse em conhecer mais sobre minha trajetória. Sinta-se à vontade para me chamar pelas redes sociais.
