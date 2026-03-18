@@ -23,10 +23,12 @@ Sou bolsista PD&I no projeto **Agents4Good**, parceria entre a UFCG e a [KunumiA
 ## Experiência Acadêmica
 
 - **Monitorias ao longo do curso**<br>
-Fui monitor das seguintes disciplinas:     Fundamentos Matemáticos para Computação, Laboratório de Programação II e Inteligência Artificial.
+
+  Fui monitor das seguintes disciplinas:     Fundamentos Matemáticos para Computação, Laboratório de Programação II e Inteligência Artificial.
 
 - **Iniciação Científica OBMEP**<br>
-Ao longo de todo o ano de 2020, participei do programa de iniciação científica da OBMEP (PIC), com bolsa do CNPq.
+
+  Ao longo de todo o ano de 2020, participei do programa de iniciação científica da OBMEP (PIC), com bolsa do CNPq.
 
 ---
 ## Prêmios e Títulos
