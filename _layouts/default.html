@@ -125,7 +125,7 @@
       #content-wrapper {
         max-width: 860px;
         margin: 0 auto;
-        padding: 1rem 2rem 6rem;
+        padding: 2rem 2rem 6rem;
       }
 
       /* ── Main content (rendered markdown) ────────────────────────── */
@@ -314,28 +314,22 @@
         el.setAttribute('data-number', String(i + 1).padStart(2, '0'));
       });
 
-      // Fix experience-style list items: strong (title) + BR + em (date) + BR + description
-      // Only apply block display when a BR exists between strong and first em (date pattern)
+      // Fix experience-style list items: strong (title) + em (date) + description text
+      // Detects by checking if strong is the first element child and em follows it
       document.querySelectorAll('#main-content ul li').forEach(li => {
         const strong = li.querySelector('strong');
         const firstEm = li.querySelector('em');
         if (!strong || !firstEm) return;
 
-        const nodes = [...li.childNodes];
-        const strongIdx = nodes.indexOf(strong);
-        const emIdx = nodes.indexOf(firstEm);
-        if (strongIdx === -1 || emIdx === -1 || emIdx <= strongIdx) return;
+        // Check strong is the first element in the li
+        if (li.firstElementChild !== strong) return;
 
-        const between = nodes.slice(strongIdx + 1, emIdx);
-        const hasBr = between.some(n => n.nodeName === 'BR');
-        if (!hasBr) return;
-
-        // It's a title + date item — make both block
+        // Apply block layout for title + date
         strong.style.cssText = 'display:block; margin-bottom:3px;';
         firstEm.style.cssText = 'display:block; margin-bottom:5px; font-family:var(--mono); font-size:0.75rem; color:var(--text-muted); font-style:normal;';
 
-        // Remove BR nodes around the date em to avoid extra blank lines
-        nodes.forEach(n => { if (n.nodeName === 'BR') n.remove(); });
+        // Remove all BR nodes to avoid extra blank lines
+        [...li.querySelectorAll('br')].forEach(br => br.remove());
       });
     </script>
   </body>
