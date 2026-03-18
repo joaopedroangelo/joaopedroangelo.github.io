@@ -1,7 +1,6 @@
 title: Homepage
 description: João Pedro Carneiro dos S. Angelo
 url: "https://joaopedroangelo.github.io"
-baseurl: "/"
-remote_theme: pages-themes/architect@v0.2.0
+baseurl: ""
 plugins:
-  - jekyll-remote-theme
+  - jekyll-seo-tag
