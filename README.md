@@ -6,10 +6,9 @@
 <a href="http://lattes.cnpq.br/9454094060154650"><img src="https://img.shields.io/badge/-Currículo Lattes-1b1968?style=for-the-badge"></a>
 <a href="https://github.com/joaopedroangelo"><img src="https://img.shields.io/badge/-Github-786966?style=for-the-badge&logo=github&logoColor=white"></a>
 
+Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.
 
-Sou natural de Pombal/PB, mas resido em Campina Grande/PB desde 2022.<br><br>
-Atualmente, curso o 7º período de Ciência da Computação na UFCG e atuo como bolsista PD&I no projeto Agents4Good,
-fruto de uma parceria entre a UFCG e a KunumiAI.<br>
+Atualmente, curso o 7º período de Ciência da Computação na UFCG e atuo como bolsista PD&I no projeto Agents4Good, fruto de uma parceria entre a UFCG e a KunumiAI.
 
 Desde já, agradeço pelo seu interesse em conhecer mais sobre minha trajetória. Sinta-se à vontade para me chamar pelas redes sociais.
 
@@ -24,14 +23,11 @@ Desde já, agradeço pelo seu interesse em conhecer mais sobre minha trajetória
 ---
 ## Experiências
 
-- **Projeto Agents4Good**  <br>
-  *Nov/2024 – até o momento*  <br>
-  Sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multi-Agentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
+- **Projeto Agents4Good**<br> `nov/2024 - presente`<br>
+Sou bolsista PD&I no projeto **Agents4Good**, parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/). O projeto foca em Inteligência Artificial, com ênfase em **Sistemas Multi-Agentes**, **LLMs** e **fine-tuning de modelos menores** para tarefas específicas.
 
-- **Monitorias ao Longo do Curso**  <br>
-  *Jun/2022 – cursando*  <br>
-  Fui monitor das seguintes disciplinas: Fundamentos Matemáticos para Computação, Laboratório de Programação II e Inteligência Artificial.
+- **Monitorias ao longo do curso**<br> `2022 - cursando`<br>
+Fui monitor das seguintes disciplinas: Fundamentos Matemáticos para Computação, Laboratório de Programação II e Inteligência Artificial.
 
-- **Iniciação Científica OBMEP**  <br>
-  *Jan/2020 – Dez/2020*  <br>
-  Participei do programa de iniciação científica da OBMEP (PIC), recebendo bolsa do CNPq.
+- **Iniciação Científica OBMEP**<br> `2020`<br>
+Participei do programa de iniciação científica da OBMEP (PIC), com bolsa do CNPq.
