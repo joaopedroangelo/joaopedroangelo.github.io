@@ -24,14 +24,14 @@ Desde já, agradeço pelo seu interesse em conhecer mais sobre minha trajetória
 ---
 ## Experiências
 
-- **Projeto Agents4Good**  
-  *Nov/2024 – até o momento*  
+- **Projeto Agents4Good**  <br>
+  *Nov/2024 – até o momento*  <br>
   Sou bolsista PD&I (Pesquisa, Desenvolvimento e Inovação) no projeto **Agents4Good**, que foca em Inteligência Artificial, com ênfase em **Sistemas Multi-Agentes** e **Modelos de Linguagem de Larga Escala (LLMs)**. O projeto é uma parceria entre a UFCG e a [KunumiAI](https://www.kunumi.com/).
 
-- **Monitorias ao Longo do Curso**  
-  *Jun/2022 – cursando*  
+- **Monitorias ao Longo do Curso**  <br>
+  *Jun/2022 – cursando*  <br>
   Fui monitor das seguintes disciplinas: Fundamentos Matemáticos para Computação, Laboratório de Programação II e Inteligência Artificial.
 
-- **Iniciação Científica OBMEP**  
-  *Jan/2020 – Dez/2020*  
+- **Iniciação Científica OBMEP**  <br>
+  *Jan/2020 – Dez/2020*  <br>
   Participei do programa de iniciação científica da OBMEP (PIC), recebendo bolsa do CNPq.
