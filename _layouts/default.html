@@ -59,7 +59,7 @@
       header {
         position: relative;
         border-bottom: 1px solid var(--border);
-        padding: 3.5rem 0 3rem;
+        padding: 2rem 0 1.75rem;
         overflow: hidden;
       }
 
@@ -73,22 +73,7 @@
         background: var(--gold);
       }
 
-      /* Decorative large letter */
-      header::before {
-        content: 'JP';
-        position: absolute;
-        right: -1rem;
-        top: 50%;
-        transform: translateY(-50%);
-        font-family: var(--serif);
-        font-size: clamp(8rem, 18vw, 16rem);
-        font-weight: 300;
-        color: var(--surface-2);
-        line-height: 1;
-        pointer-events: none;
-        user-select: none;
-        letter-spacing: -0.05em;
-      }
+      /* Decorative large letter — removed */
 
       .header-inner {
         max-width: 860px;
@@ -140,7 +125,7 @@
       #content-wrapper {
         max-width: 860px;
         margin: 0 auto;
-        padding: 3.5rem 2rem 6rem;
+        padding: 2rem 2rem 6rem;
       }
 
       /* ── Main content (rendered markdown) ────────────────────────── */
@@ -228,7 +213,7 @@
         border-left: 3px solid var(--border);
         border-radius: 0 6px 6px 0;
         font-size: 0.93rem;
-        line-height: 1.6;
+        line-height: 1.7;
         transition: border-left-color 0.2s, background 0.2s;
         position: relative;
       }
@@ -238,26 +223,26 @@
         background: var(--surface-2);
       }
 
-      /* Bold text in lists */
-      #main-content ul li strong:first-child {
+      /* Bold text in lists — inline, golden, monospace */
+      #main-content ul li strong {
         font-family: var(--mono);
-        font-size: 0.78rem;
+        font-size: 0.82rem;
         font-weight: 400;
         color: var(--gold);
-        letter-spacing: 0.05em;
-        display: block;
-        margin-bottom: 0.15rem;
+        letter-spacing: 0.04em;
       }
 
-      /* Experience entries (have h3 or multiple paragraphs) */
-      /* Target the experience list differently — items with <strong> followed by <em> */
+      /* Italic text in lists — inline, muted, monospace (dates/subtitles) */
       #main-content ul li em {
         font-style: normal;
         font-family: var(--mono);
-        font-size: 0.72rem;
+        font-size: 0.75rem;
         color: var(--text-muted);
-        display: block;
-        margin-bottom: 0.3rem;
+      }
+
+      /* Hide orphan <br> at end of list items (Jekyll artifact) */
+      #main-content ul li br:last-child {
+        display: none;
       }
 
       /* Links inside content */
@@ -322,7 +307,7 @@
     </div>
 
     <footer>
-      <span>{{ site.github.owner_name }} &mdash; {{ site.github.repository_name }}</span>
+      <span>Saiba mais em: <a href="https://github.com/joaopedroangelo" style="color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold-dim);">github.com/joaopedroangelo</a></span>
     </footer>
 
     <script>
