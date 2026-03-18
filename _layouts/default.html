@@ -125,7 +125,7 @@
       #content-wrapper {
         max-width: 860px;
         margin: 0 auto;
-        padding: 2rem 2rem 6rem;
+        padding: 1rem 2rem 6rem;
       }
 
       /* ── Main content (rendered markdown) ────────────────────────── */
@@ -232,12 +232,10 @@
         letter-spacing: 0.04em;
       }
 
-      /* Italic text in lists — inline, muted, monospace (dates/subtitles) */
+      /* Italic text in lists — inline, default color */
       #main-content ul li em {
-        font-style: normal;
-        font-family: var(--mono);
-        font-size: 0.75rem;
-        color: var(--text-muted);
+        font-style: italic;
+        color: var(--text);
       }
 
       /* Hide orphan <br> at end of list items (Jekyll artifact) */
@@ -314,6 +312,30 @@
       // Auto-number the h2 sections
       document.querySelectorAll('#main-content h2').forEach((el, i) => {
         el.setAttribute('data-number', String(i + 1).padStart(2, '0'));
+      });
+
+      // Fix experience-style list items: strong (title) + BR + em (date) + BR + description
+      // Only apply block display when a BR exists between strong and first em (date pattern)
+      document.querySelectorAll('#main-content ul li').forEach(li => {
+        const strong = li.querySelector('strong');
+        const firstEm = li.querySelector('em');
+        if (!strong || !firstEm) return;
+
+        const nodes = [...li.childNodes];
+        const strongIdx = nodes.indexOf(strong);
+        const emIdx = nodes.indexOf(firstEm);
+        if (strongIdx === -1 || emIdx === -1 || emIdx <= strongIdx) return;
+
+        const between = nodes.slice(strongIdx + 1, emIdx);
+        const hasBr = between.some(n => n.nodeName === 'BR');
+        if (!hasBr) return;
+
+        // It's a title + date item — make both block
+        strong.style.cssText = 'display:block; margin-bottom:3px;';
+        firstEm.style.cssText = 'display:block; margin-bottom:5px; font-family:var(--mono); font-size:0.75rem; color:var(--text-muted); font-style:normal;';
+
+        // Remove BR nodes around the date em to avoid extra blank lines
+        nodes.forEach(n => { if (n.nodeName === 'BR') n.remove(); });
       });
     </script>
   </body>
