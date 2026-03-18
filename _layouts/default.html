@@ -138,33 +138,40 @@
         to   { opacity: 1; transform: translateY(0); }
       }
 
-      /* Social badges area */
-      #main-content > p:first-child {
+      /* Sobre Mim card — body-text sizing override */
+      #main-content ul li.sobre-mim-card {
+        font-size: 1rem;
+        line-height: 1.85;
+        color: var(--text);
+        border-left-color: var(--gold-dim);
+      }
+
+      #main-content ul li.sobre-mim-card p {
+        margin-bottom: 0.75rem;
+      }
+
+      #main-content ul li.sobre-mim-card p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* Redes Sociais card — badge row */
+      #main-content ul li.redes-card {
         display: flex;
         flex-wrap: wrap;
         gap: 0.5rem;
-        margin-bottom: 2rem;
+        align-items: center;
+        border-left-color: var(--gold-dim);
       }
 
-      #main-content > p:first-child img {
+      #main-content ul li.redes-card img {
         height: 28px;
         transition: opacity 0.2s, transform 0.2s;
         border-radius: 3px;
       }
 
-      #main-content > p:first-child img:hover {
+      #main-content ul li.redes-card a:hover img {
         opacity: 0.85;
         transform: translateY(-1px);
-      }
-
-      /* Intro paragraph */
-      #main-content > p:nth-child(2) {
-        font-size: 1.05rem;
-        line-height: 1.85;
-        color: var(--text);
-        margin-bottom: 2.5rem;
-        padding-left: 1.25rem;
-        border-left: 2px solid var(--gold-dim);
       }
 
       /* Section headings (## in markdown) */
@@ -310,15 +317,86 @@
     </footer>
 
     <script>
-      // Auto-number the h2 sections
-      document.querySelectorAll('#main-content h2').forEach((el, i) => {
+      const mainContent = document.getElementById('main-content');
+
+      // ── 1. Restructure "Sobre Mim" section ──────────────────────────
+      // After Jekyll renders the markdown, the first h2 is "Sobre Mim",
+      // followed by: a <p> with badge <img> links, then <p> text paragraphs.
+      // We wrap the text paragraphs in a card (ul > li) and strip the badges.
+
+      const firstH2 = mainContent.querySelector('h2');
+      if (firstH2) {
+        let badgesP = null;
+        const textParagraphs = [];
+        let sibling = firstH2.nextElementSibling;
+
+        // Collect siblings until the next hr or h2
+        while (sibling && sibling.tagName !== 'H2' && sibling.tagName !== 'HR') {
+          const next = sibling.nextElementSibling;
+          if (sibling.tagName === 'P') {
+            if (!badgesP && sibling.querySelector('img')) {
+              badgesP = sibling; // badges paragraph — save for Redes Sociais
+            } else {
+              textParagraphs.push(sibling);
+            }
+          }
+          sibling = next;
+        }
+
+        // Remove badges paragraph from its current position
+        if (badgesP) badgesP.remove();
+
+        // Wrap text paragraphs in a card li
+        if (textParagraphs.length > 0) {
+          const ul  = document.createElement('ul');
+          const li  = document.createElement('li');
+          li.className = 'sobre-mim-card';
+
+          textParagraphs.forEach(p => {
+            // Normalise inline <br><br> into sibling <p> elements for cleaner markup
+            const pClone = document.createElement('p');
+            pClone.innerHTML = p.innerHTML
+              .replace(/<br\s*\/?>\s*<br\s*\/?>/gi, '</p><p>') // double BR → new p
+              .replace(/<br\s*\/?>/gi, ' ');                    // single BR → space
+            // pClone may now contain nested <p> tags (stringified); insert as fragment
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = pClone.outerHTML;
+            [...wrapper.children].forEach(child => li.appendChild(child));
+            p.remove();
+          });
+
+          ul.appendChild(li);
+          firstH2.after(ul);
+        }
+
+        // ── 2. Create "Redes Sociais" card at the end ──────────────────
+        if (badgesP) {
+          const redesH2 = document.createElement('h2');
+          redesH2.textContent = 'Redes Sociais';
+          mainContent.appendChild(redesH2);
+
+          const redesUl = document.createElement('ul');
+          const redesLi = document.createElement('li');
+          redesLi.className = 'redes-card';
+
+          // Move each badge anchor into the new card
+          badgesP.querySelectorAll('a').forEach(a => {
+            redesLi.appendChild(a.cloneNode(true));
+          });
+
+          redesUl.appendChild(redesLi);
+          mainContent.appendChild(redesUl);
+        }
+      }
+
+      // ── 3. Auto-number all h2 sections ──────────────────────────────
+      mainContent.querySelectorAll('h2').forEach((el, i) => {
         el.setAttribute('data-number', String(i + 1).padStart(2, '0'));
         if (i === 0) el.style.marginTop = '0.6rem';
       });
 
-      // Fix experience-style list items: strong (title) + BR + em (date) + BR + description
-      // Only apply block display when a BR exists between strong and first em (date pattern)
-      document.querySelectorAll('#main-content ul li').forEach(li => {
+      // ── 4. Fix experience-style list items (title + date + description)
+      mainContent.querySelectorAll('ul li:not(.sobre-mim-card):not(.redes-card)').forEach(li => {
         const strong = li.querySelector('strong');
         const firstEm = li.querySelector('em');
         if (!strong || !firstEm) return;
@@ -332,11 +410,8 @@
         const hasBr = between.some(n => n.nodeName === 'BR');
         if (!hasBr) return;
 
-        // It's a title + date item — make both block
         strong.style.cssText = 'display:block; margin-bottom:3px;';
         firstEm.style.cssText = 'display:block; margin-bottom:5px; font-family:var(--mono); font-size:0.75rem; color:var(--text-muted); font-style:normal;';
-
-        // Remove BR nodes around the date em to avoid extra blank lines
         nodes.forEach(n => { if (n.nodeName === 'BR') n.remove(); });
       });
     </script>
