@@ -15,7 +15,7 @@ Desde já, agradeço pelo seu interesse em conhecer mais sobre minha trajetória
 ---
 ## Conquistas
 
-- **Novembro/2024**: Ingresso no projeto *Agents4Good* e começo da carreira em *Inteligência Artificial*;
+- **2024**: Ingresso no projeto *Agents4Good* e começo da carreira em *Inteligência Artificial*;
 - **2022**: Início da graduação em Ciência da Computação na Universidade Federal de Campina Grande (UFCG);
 - **2020**: Medalhista de Prata na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
 - **2019**: Medalhista de Bronze na Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP);
