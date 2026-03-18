@@ -157,12 +157,12 @@
         transform: translateY(-1px);
       }
 
-      /* Intro paragraphs — applied via JS to all <p> before first h2 */
-      #main-content p.intro-p {
+      /* Intro paragraph */
+      #main-content > p:nth-child(2) {
         font-size: 1.05rem;
         line-height: 1.85;
         color: var(--text);
-        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
         padding-left: 1.25rem;
         border-left: 2px solid var(--gold-dim);
       }
@@ -309,22 +309,10 @@
     </footer>
 
     <script>
-      // Tag all <p> elements before the first h2 as intro paragraphs
-      const firstH2 = document.querySelector('#main-content h2');
-      if (firstH2) {
-        let el = firstH2.previousElementSibling;
-        while (el) {
-          if (el.tagName === 'P' && !el.querySelector('img')) {
-            el.classList.add('intro-p');
-          }
-          el = el.previousElementSibling;
-        }
-      }
-
       // Auto-number the h2 sections
       document.querySelectorAll('#main-content h2').forEach((el, i) => {
         el.setAttribute('data-number', String(i + 1).padStart(2, '0'));
-        if (i === 0) el.style.marginTop = '0.6rem';
+        if (i === 0) el.style.marginTop = '1.1rem';
       });
 
       // Fix experience-style list items: strong (title) + BR + em (date) + BR + description
